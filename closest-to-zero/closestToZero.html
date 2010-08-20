@@ -3,19 +3,26 @@
 <html>
 <head>
   <title>Closest to Zero WebApp</title>
-  <script type="text/javascript" src="src/ClosestToZero.js"></script>
-  <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="ClosestToZero.js"></script>
+  <script type="text/javascript" src="lib/jquery-1.4.2.min.js"></script>
 
 </head>
 <body>
 <style>
 	.closest {
-		background-color : green;
+		background-color : lightGreen;
 	}
 
 </style>
 <script type="text/javascript">
-	new ClosestToZero().addStylesToULs();
+	var closestToZeroFinder = new ClosestToZeroFinder();
+
+	$(function() {
+		$('#goButton').click(function(e) {
+			e.preventDefault();
+			closestToZeroFinder.addStylesToULs();
+		});
+	});
 
 </script>
 
