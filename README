@@ -1,16 +1,16 @@
 This is code that I used to get some developers/testers working with jasmine at a client of Pillar's.
 
 It uses the "Closest To Zero" problem, which is....
-	1. Given a list of Integers (they can be positive or negative), find the one
-		that is closest to zero.
-	2. In the case where there are two integers that are equidistant to zero (for
-		example, 1 and -1), prefer the positive result.
-	3. If the input is empty do nothing.
+  1. Given a list of Integers (they can be positive or negative), find the one
+     that is closest to zero.
+  2. In the case where there are two integers that are equidistant to zero (for
+     example, 1 and -1), prefer the positive result.
+  3. If the input is empty do nothing.
 
 I give the participants in this workshop four files:
 
-	1. ClosestToZero.js, which contains the necessary code to highlight all
-			results (ie: this is incorrect, but gets them started)
-	2. ClosestToZeroSpec.js, which contains one jasmine spec that executes green
-	3. An html SpecRunner for jasmine tests.
-	4. closestToZero.html, which is a way to visibly see your progress.
+  1. ClosestToZero.js, which contains the necessary code to highlight all
+     results (ie: this is incorrect, but gets them started)
+  2. ClosestToZeroSpec.js, which contains one jasmine spec that executes green
+  3. An html SpecRunner for jasmine tests.
+  4. closestToZero.html, which is a way to visibly see your progress.
